@@ -1,0 +1,144 @@
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 30px;
+    background-color: #11c3cf;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fdfdfd;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+h1, h2 {
+    color: #2c2c2c;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+a {
+    color: #004085;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #002752;
+}
+
+.button, input[type="submit"] {
+    display: inline-block;
+    background-color: #0056b3;
+    color: #ffffff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button:hover, input[type="submit"]:hover {
+    background-color: #09b7e7;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+th, td {
+    text-align: left;
+    padding: 14px;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+tr, td {
+    background-color: #e0e3e3;
+}
+
+th {
+    background-color: #444;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.actions {
+    text-align: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.actions a {
+    padding: 10px 15px;
+    background-color: #868e96;
+    color: #ffffff;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.actions a:hover {
+    background-color: #5c636a;
+}
+
+.success {
+    background-color: #c3e6cb;
+    color: #155724;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.error {
+    background-color: #f5c6cb;
+    color: #721c24;
+    padding: 12px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+form {
+    margin-bottom: 25px;
+}
+
+input[type="text"], textarea, input[type="number"], select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #d1d1d1;
+    border-radius: 6px;
+    background-color: #fdfdfd;
+}
+
+select {
+    appearance: none;
+    background-color: #fdfdfd;
+    color: #343a40;
+    cursor: pointer;
+}
+
+select:hover {
+    background-color: #e0e3e3;
+}
+
+label {
+    display: block;
+    margin-bottom: 7px;
+    color: #343a40;
+    font-weight: 500;
+}
